@@ -104,8 +104,6 @@ import com.google.android.systemui.statusbar.KeyguardIndicationControllerGoogle;
 import com.google.android.systemui.statusbar.policy.BatteryControllerImplGoogle;
 import com.google.android.systemui.elmyra.ServiceConfigurationGoogle;
 
-import com.android.systemui.qs.dagger.custom.QSModuleCustom;
-
 import javax.inject.Named;
 
 import dagger.Binds;
@@ -131,8 +129,7 @@ import dagger.Lazy;
         ColumbusModule.class,
         StatusBarEventsModule.class,
         AospPolicyModule.class,
-        RotationLockModule.class,
-        QSModuleCustom.class
+        RotationLockModule.class
 })
 public abstract class SystemUIGoogleModule {
 
